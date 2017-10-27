@@ -1,0 +1,69 @@
+*{
+box-sizing: border-box;
+}
+
+body {
+	background-color:rgb(249,214,201);
+	margin: 0;
+	}	
+
+.w3-col{
+	margin-bottom: 2em;
+}
+
+.caption{
+	font-family: 'Futura', Helvetica, sans-serif;
+	color:#808080;
+	font-weight: normal;
+}
+
+.room{
+	font-family: 'Futura', Helvetica, sans-serif;
+	color:#2F4F4F;
+	font-weight: normal;
+}
+
+.header {
+	font-family: 'Futura', Helvetica, sans-serif;
+	color:#008080;
+	padding: 20px;
+	text-align: center;
+	}
+
+ .topnav {
+ 	font-family: 'Futura', Helvetica, sans-serif;
+	overflow: hidden;
+	background-color: #2F4F4F
+	}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: #FFE4C4;
+	font-weight: normal;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	}
+
+.topnav a:hover {
+	background-color: #5F9EA0;
+	color: black;
+	}
+
+
+.mySlides {display:none}
+.demo {cursor:pointer}
+
+.last {
+	text-align:center;
+	font-family : 'Futura', Helvetica, sans-serif;
+	font-size:1.5em;
+	color:#778899;
+	}
+
+@media (max-width: 600px) {
+	.column.side, .column.middle {
+		width: 100%;
+		}
+	}
