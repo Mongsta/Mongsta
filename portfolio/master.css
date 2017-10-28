@@ -5,6 +5,7 @@ box-sizing: border-box;
 body {
 	margin: 0;
 	}	
+/* unable to select text by drag for js sketch*/
 
 .header {
     -webkit-user-select: none; /* Safari */
