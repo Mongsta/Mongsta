@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.sound.min.js"></script>
+    <script src="coffee.js"></script>
+<link rel="stylesheet" href="menu.css">
+
+
+<body>
+
+	<body>
+		<div class="header">
+			<div>
+			<h1 id="logo"> EDIYA COFFEE </h1>
+			</div>
+		</div>
+
+		<!-- main menu -->
+		<div class="topnav">
+      <a href="index.html">HOME</a>
+      <a href="coffee.html">COFFEE</a>
+      <a href="beverage.html">BEVERAGE</a>
+      <a href="blendingtea.html">BLENDING TEA</a>
+      <a href="flatccino.html">FLATCCINO</a>
+      <a href="ade.html">ADE</a>
+      <a href="shake.html">SHAKE</a>
+		</div>
+
+    <!-- short message of this page -->
+		<div class="w3-container">
+  			<h2 class="room">BEVERAGE</h2>
+        <p id='demo'></p>
+		</div>
+
+    <!-- captions are short information of each images -->
+ 		<div class="w3-row-padding w3-section">
+   			<div class="w3-col s4">
+    	<p class="caption"> Chocolate (HOT) </p>
+      <p class="caption2"> 3200won </p>
+      		<img onclick="myFunction()" class="demo w3-opacity w3-hover-opacity-off" src="bev1.png" style="width:100%">
+    	</div>
+
+    <div class="w3-row-padding w3-section">
+        <div class="w3-col s4">
+      <p class="caption"> Chocolate (ICE) </p>
+      <p class="caption2"> 3200won </p>
+          <img onclick="myFunction()" class="demo w3-opacity w3-hover-opacity-off" src="bev2.png" style="width:100%">
+      </div>
+
+    <div class="w3-row-padding w3-section">
+        <div class="w3-col s4">
+      <p class="caption"> Brownie Chocolate (HOT) </p>
+      <p class="caption2"> 4200won </p>
+          <img onclick="myFunction()" class="demo w3-opacity w3-hover-opacity-off" src="bev3.png" style="width:100%">
+      </div>
+    
+    <div class="w3-row-padding w3-section">
+        <div class="w3-col s4">
+      <p class="caption"> Brownie Chocolate (ICE) </p>
+      <p class="caption2"> 4200won </p>
+          <img onclick="myFunction()" class="demo w3-opacity w3-hover-opacity-off" src="bev4.png" style="width:100%">
+      </div>
+
+    <div class="w3-row-padding w3-section">
+        <div class="w3-col s4">
+      <p class="caption"> Candy Latte (HOT) </p>
+      <p class="caption2"> 3800won </p>
+          <img onclick="myFunction()" class="demo w3-opacity w3-hover-opacity-off" src="bev5.png" style="width:100%">
+      </div>
+
+    <div class="w3-row-padding w3-section">
+        <div class="w3-col s4">
+      <p class="caption"> Candy Latte (ICE) </p>
+      <p class="caption2"> 3800won </p>
+          <img onclick="myFunction()" class="demo w3-opacity w3-hover-opacity-off" src="bev6.png" style="width:100%">
+      </div>
+
+    <div class="w3-row-padding w3-section">
+        <div class="w3-col s4">
+      <p class="caption"> White Chocolate Latte (HOT) </p>
+      <p class="caption2"> 3200won </p>
+          <img onclick="myFunction()" class="demo w3-opacity w3-hover-opacity-off" src="bev7.png" style="width:100%">
+      </div>
+
+    <div class="w3-row-padding w3-section">
+        <div class="w3-col s4">
+      <p class="caption"> White Chocolate Latte (ICE) </p>
+      <p class="caption2"> 3200won </p>
+          <img onclick="myFunction()" class="demo w3-opacity w3-hover-opacity-off" src="bev8.png" style="width:100%">
+      </div>
+
+    <div class="w3-row-padding w3-section">
+        <div class="w3-col s4">
+      <p class="caption"> Mint hocolate (HOT) </p>
+      <p class="caption2"> 3500won </p>
+          <img onclick="myFunction()" class="demo w3-opacity w3-hover-opacity-off" src="bev9.png" style="width:100%">
+      </div>
+
+    <div class="w3-row-padding w3-section">
+        <div class="w3-col s4">
+      <p class="caption"> Mint Chocolate (ICE) </p>
+      <p class="caption2"> 3500won </p>
+          <img onclick="myFunction()" class="demo w3-opacity w3-hover-opacity-off" src="bev10.png" style="width:100%">
+      </div>
+
+    <div class="w3-row-padding w3-section">
+        <div class="w3-col s4">
+      <p class="caption"> Green Tea Latte (HOT) </p>
+      <p class="caption2"> 3200won </p>
+          <img onclick="myFunction()" class="demo w3-opacity w3-hover-opacity-off" src="bev11.png" style="width:100%">
+      </div>
+
+    <div class="w3-row-padding w3-section">
+        <div class="w3-col s4">
+      <p class="caption"> Green Tea Latte (ICE) </p>
+      <p class="caption2"> 3200won </p>
+          <img onclick="myFunction()" class="demo w3-opacity w3-hover-opacity-off" src="bev12.png" style="width:100%">
+      </div>
+
+    <div class="w3-row-padding w3-section">
+        <div class="w3-col s4">
+      <p class="caption"> Grain Powder Latte (HOT) </p>
+      <p class="caption2"> 3500won </p>
+          <img onclick="myFunction()" class="demo w3-opacity w3-hover-opacity-off" src="bev13.png" style="width:100%">
+      </div>
+
+    <div class="w3-row-padding w3-section">
+        <div class="w3-col s4">
+      <p class="caption"> Grain Powder Latte (ICE) </p>
+      <p class="caption2"> 3500won </p>
+          <img onclick="myFunction()" class="demo w3-opacity w3-hover-opacity-off" src="bev14.png" style="width:100%">
+      </div>
+
+    <div class="w3-row-padding w3-section">
+        <div class="w3-col s4">
+      <p class="caption"> Toffee Nut Latte (HOT) </p>
+      <p class="caption2"> 3500won </p>
+          <img onclick="myFunction()" class="demo w3-opacity w3-hover-opacity-off" src="bev15.png" style="width:100%">
+      </div>
+
+    <div class="w3-row-padding w3-section">
+        <div class="w3-col s4">
+      <p class="caption"> Toffee Nut Latte (ICE) </p>
+      <p class="caption2"> 3500won </p>
+          <img onclick="myFunction()" class="demo w3-opacity w3-hover-opacity-off" src="bev16.png" style="width:100%">
+      </div>
+
+    <div class="w3-row-padding w3-section">
+        <div class="w3-col s4">
+      <p class="caption"> Sweet Potato Latte (HOT) </p>
+      <p class="caption2"> 4000won </p>
+          <img onclick="myFunction()" class="demo w3-opacity w3-hover-opacity-off" src="bev17.png" style="width:100%">
+      </div>
+
+    <div class="w3-row-padding w3-section">
+        <div class="w3-col s4">
+      <p class="caption"> Sweet Potato Latte (ICE) </p>
+      <p class="caption2"> 4000won </p>
+          <img onclick="myFunction()" class="demo w3-opacity w3-hover-opacity-off" src="bev18.png" style="width:100%">
+      </div>
+
+    <div class="w3-row-padding w3-section">
+        <div class="w3-col s4">
+      <p class="caption"> Strawberry Juice </p>
+      <p class="caption2"> 4200won </p>
+          <img onclick="myFunction()" class="demo w3-opacity w3-hover-opacity-off" src="bev19.png" style="width:100%">
+      </div>
+
+    <div class="w3-row-padding w3-section">
+        <div class="w3-col s4">
+      <p class="caption"> Gold Kiwi Juice </p>
+      <p class="caption2"> 4200won </p>
+          <img onclick="myFunction()" class="demo w3-opacity w3-hover-opacity-off" src="bev20.png" style="width:100%">
+      </div>
+
+    <div class="w3-row-padding w3-section">
+        <div class="w3-col s4">
+      <p class="caption"> Soft Persimmon Juice </p>
+      <p class="caption2"> 4200won </p>
+          <img onclick="myFunction()" class="demo w3-opacity w3-hover-opacity-off" src="bev21.png" style="width:100%">
+      </div>
+
+  	</div>
+
+</div>
+	</body>
+</html>

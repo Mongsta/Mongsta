@@ -1,0 +1,77 @@
+*{
+box-sizing: border-box;
+}
+
+body {
+	background-color:#13245e;
+	margin: 0;
+	}	
+/* unable to select text by drag for js sketch*/
+
+.header {
+    -webkit-user-select: none; /* Safari */
+	font-family: 'Futura', Helvetica, sans-serif;
+	color:#ffffff;
+	padding: 20px;
+	text-align: center;
+	}
+
+ .topnav {
+ 	-webkit-user-select: none; /* Safari */
+ 	font-family: 'Futura', Helvetica, sans-serif;
+	overflow: hidden;
+	background-color: #ffffff
+	}
+
+.topnav a {
+	-webkit-user-select: none; /* Safari */
+	float: left;
+	display: block;
+	color: #13245e;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	}
+
+.topnav a:hover {
+    -webkit-user-select: none; /* Safari */
+	background-color: #0b1639;
+	color: white;
+	}
+
+.servicename {
+	font-family: 'Futura', Helvetica, sans-serif;
+	text-align: center;
+	color : white;
+}
+
+.button {
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	background-color:white;
+	border : 2px solid #13245e;
+	color : black;
+	text-align : center;
+	cursor : pointer ;
+	font-size : 20px;
+	font-family: 'Futura', Helvetica, sans-serif;
+	padding : 16px;
+	border-radius: 12px;
+}
+
+.button:hover {
+	background-color:#0b1639;
+	color:white;
+}
+
+#demo {
+	font-family: 'Futura', Helvetica, sans-serif;
+	text-align: center;
+	color : white;
+}
+
+@media (max-width: 600px) {
+	.column.side, .column.middle {
+		width: 100%;
+		}
+	}
